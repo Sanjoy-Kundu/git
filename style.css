@@ -43,3 +43,37 @@ div img {
 .dream-big p {
 	padding-right: 4px;
 }
+.experience-item {
+	width: 40%;
+	box-shadow: 10px 10px 40px gray;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+/* border image dear jonno 
+border-slice dite hobe 
+	border-image-slice: 1
+	border-image: linear-gradient(blue, cyan) */
+#web-dev-exp2 {
+border-image: linear-gradient(blue, cyan);
+border-image-slice: 1;
+border-left: 7px solid;
+}
+#web-dev-exp-1 {
+	border-image: linear-gradient(rgb(209, 29, 233), rgb(131, 211, 211));
+	border-image-slice: 1;
+	border-left: 7px solid;
+}
+.experience-area {
+	background-image: url(images/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+footer {
+	text-align: center;
+}
+footer p {
+	color: rgb(80, 77, 77);
+	font-weight: bolder;
+}
